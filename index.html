@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boulangerie Dupont</title>
+    
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+  </head>
+  <body class="bg-background-light dark:bg-background-dark text-[#1b140d] dark:text-white font-display overflow-x-hidden">
+    
+    <!-- Application Container -->
+    <div id="app" class="flex flex-col min-h-screen">
+        <app-header></app-header>
+        
+        <main class="flex flex-col flex-grow">
+            <app-hero></app-hero>
+            <app-specials></app-specials>
+            <app-about></app-about>
+        </main>
+        
+        <app-footer></app-footer>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

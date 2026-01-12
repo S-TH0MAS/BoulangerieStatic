@@ -1,0 +1,8 @@
+/* Styles spécifiques au Header (si nécessaire en plus de Tailwind) */
+:host {
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    width: 100%;
+}

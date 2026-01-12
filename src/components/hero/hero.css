@@ -1,0 +1,4 @@
+/* Styles spécifiques au Hero */
+:host {
+    display: block;
+}
